@@ -17,7 +17,7 @@ import dicttoxml
 # Generate a ComplexModelBase subclass with
 # metadata information
 # Initialize SQLAlchemy Environment
-engine = create_engine('sqlite:///D:/selectedTopic/flaskSoap/db.db')
+engine = create_engine('sqlite:///./db.db')
 
 class GraphPlotValue(ComplexModel):
     __namespace__ = "graphSST"

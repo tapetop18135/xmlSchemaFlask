@@ -3,7 +3,8 @@ from lxml import etree
 import xmlschema
 
 
-client = Client('http://localhost:8000/soapAPI1/?wsdl')
+client = Client('http://127.0.0.1:8000/soapAPI1/?wsdl')
+
 resultlistfood = client.service.listfoodService()
 resultXMLtest = client.service.getGrapXMLdata()
 # print(resultXMLtest)
